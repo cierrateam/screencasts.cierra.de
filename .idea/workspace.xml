@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc2bab5-0d89-4ed4-b613-af298399eeb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/lessons-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/lessons-list.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,12 +172,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584561840545</updated>
-      <workItem from="1584561844396" duration="2303000" />
+      <workItem from="1584561844396" duration="2611000" />
     </task>
+    <task id="LOCAL-00001" summary="Some contents on welcome.blade.php">
+      <created>1584565068578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584565068578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some contents on welcome.blade.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some contents on welcome.blade.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2818" y="122" width="712" height="792" key="#LessonsTest.test_a_lesson_can_be_stored" timestamp="1584561939493">
@@ -193,6 +204,10 @@
       <screen x="1792" y="-270" width="3008" height="1669" />
     </state>
     <state x="2931" y="129" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562679451" />
+    <state x="431" y="124" key="CommitChangelistDialog2" timestamp="1584565068197">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="431" y="124" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1584565068197" />
     <state width="1291" height="220" key="GridCell.Tab.0.bottom" timestamp="1584562980929">
       <screen x="1792" y="-270" width="3008" height="1669" />
     </state>
@@ -209,10 +224,15 @@
       <screen x="1792" y="-270" width="3008" height="1669" />
     </state>
     <state width="1291" height="220" key="GridCell.Tab.0.right/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562980928" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1584563838782">
-      <screen x="1792" y="-270" width="3008" height="1669" />
+    <state width="500" height="400" key="SwitcherDM" timestamp="1584565229312">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state width="500" height="400" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1584565229312" />
     <state width="500" height="445" key="SwitcherDM/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584563838782" />
+    <state x="448" y="267" key="Vcs.Push.Dialog.v2" timestamp="1584565070405">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="448" y="267" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1584565070405" />
     <state x="2828" y="275" width="683" height="486" key="find.popup" timestamp="1584563631910">
       <screen x="1792" y="-270" width="3008" height="1669" />
     </state>
@@ -221,10 +241,10 @@
       <screen x="1792" y="-270" width="3008" height="1669" />
     </state>
     <state x="2834" y="239" key="run.anything.popup/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562064306" />
-    <state x="621" y="383" width="670" height="445" key="search.everywhere.popup" timestamp="1584564686887">
+    <state x="621" y="383" width="670" height="445" key="search.everywhere.popup" timestamp="1584565194102">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="621" y="383" width="670" height="445" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1584564686887" />
+    <state x="621" y="383" width="670" height="445" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1584565194102" />
     <state x="2834" y="277" width="670" height="676" key="search.everywhere.popup/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584563776673" />
   </component>
 </project>
