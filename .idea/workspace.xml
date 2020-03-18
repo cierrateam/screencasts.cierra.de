@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fc2bab5-0d89-4ed4-b613-af298399eeb0" name="Default Changelist" comment="" />
+    <list default="true" id="7fc2bab5-0d89-4ed4-b613-af298399eeb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
@@ -120,6 +127,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZJetgf1s7SG2WcPquFEJebtfac" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -127,6 +135,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="PHPUnit.LessonsTest.test_a_lesson_is_shown_on_lesson_show_component">
@@ -164,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584561840545</updated>
-      <workItem from="1584561844396" duration="1899000" />
+      <workItem from="1584561844396" duration="2303000" />
     </task>
     <servers />
   </component>
@@ -212,9 +221,10 @@
       <screen x="1792" y="-270" width="3008" height="1669" />
     </state>
     <state x="2834" y="239" key="run.anything.popup/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562064306" />
-    <state x="2834" y="277" width="670" height="676" key="search.everywhere.popup" timestamp="1584563776673">
-      <screen x="1792" y="-270" width="3008" height="1669" />
+    <state x="621" y="383" width="670" height="445" key="search.everywhere.popup" timestamp="1584564686887">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state x="621" y="383" width="670" height="445" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1584564686887" />
     <state x="2834" y="277" width="670" height="676" key="search.everywhere.popup/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584563776673" />
   </component>
 </project>
