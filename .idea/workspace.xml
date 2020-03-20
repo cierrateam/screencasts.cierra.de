@@ -3,14 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="7fc2bab5-0d89-4ed4-b613-af298399eeb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/LessonsList.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/LessonsList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Lesson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/LessonFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/LessonFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/lesson-show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/lesson-show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/LessonsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/LessonsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -138,6 +151,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="PHPUnit.LessonsTest.test_a_lesson_is_shown_on_lesson_show_component">
+    <configuration name="LessonsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\LessonsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/LessonsTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="LessonsTest.test_a_lesson_can_be_stored" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\LessonsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/LessonsTest.php" method="test_a_lesson_can_be_stored" scope="Method" />
       <method v="2" />
@@ -150,6 +167,10 @@
       <TestRunner class="Tests\Feature\LessonsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/LessonsTest.php" method="test_all_lessons_are_visible_in_lessons_index" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="SeriesTest.test_series_can_be_listed_in_component" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\SeriesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/SeriesTest.php" method="test_series_can_be_listed_in_component" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -157,6 +178,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.LessonsTest.test_a_lesson_is_shown_on_lesson_show_component" />
+        <item itemvalue="PHPUnit.LessonsTest" />
+        <item itemvalue="PHPUnit.SeriesTest.test_series_can_be_listed_in_component" />
         <item itemvalue="PHPUnit.LessonsTest.test_all_lessons_are_visible_in_lessons_index" />
         <item itemvalue="PHPUnit.LessonsTest.test_a_lesson_can_be_stored" />
       </list>
@@ -172,7 +195,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584561840545</updated>
-      <workItem from="1584561844396" duration="2767000" />
+      <workItem from="1584561844396" duration="3857000" />
+      <workItem from="1584635668249" duration="4440000" />
     </task>
     <task id="LOCAL-00001" summary="Some contents on welcome.blade.php">
       <created>1584565068578</created>
@@ -188,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584565267414</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dashboard link">
+      <created>1584565442720</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584565442720</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +228,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some contents on welcome.blade.php" />
     <MESSAGE value="alternative url" />
-    <option name="LAST_COMMIT_MESSAGE" value="alternative url" />
+    <MESSAGE value="Dashboard link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dashboard link" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2818" y="122" width="712" height="792" key="#LessonsTest.test_a_lesson_can_be_stored" timestamp="1584561939493">
@@ -208,52 +240,63 @@
       <screen x="1792" y="-270" width="3008" height="1669" />
     </state>
     <state x="2834" y="103" key="#PHP/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584561938710" />
+    <state x="634" y="322" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584665068079">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="634" y="322" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1584665068079" />
     <state x="2931" y="129" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1584562679451">
       <screen x="1792" y="-270" width="3008" height="1669" />
     </state>
     <state x="2931" y="129" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562679451" />
-    <state x="431" y="124" key="CommitChangelistDialog2" timestamp="1584565267325">
+    <state x="431" y="124" key="CommitChangelistDialog2" timestamp="1584565442632">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="431" y="124" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1584565267325" />
-    <state width="1291" height="220" key="GridCell.Tab.0.bottom" timestamp="1584562980929">
-      <screen x="1792" y="-270" width="3008" height="1669" />
+    <state x="431" y="124" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1584565442632" />
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom" timestamp="1584666644421">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1291" height="220" key="GridCell.Tab.0.bottom/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562980929" />
-    <state width="1291" height="220" key="GridCell.Tab.0.center" timestamp="1584562980928">
-      <screen x="1792" y="-270" width="3008" height="1669" />
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1584666644421" />
+    <state width="1291" height="220" key="GridCell.Tab.0.bottom/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584629289154" />
+    <state width="1750" height="317" key="GridCell.Tab.0.center" timestamp="1584666644420">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1291" height="220" key="GridCell.Tab.0.center/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562980928" />
-    <state width="1291" height="220" key="GridCell.Tab.0.left" timestamp="1584562980928">
-      <screen x="1792" y="-270" width="3008" height="1669" />
+    <state width="1750" height="317" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1584666644420" />
+    <state width="1291" height="220" key="GridCell.Tab.0.center/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584629289153" />
+    <state width="1750" height="317" key="GridCell.Tab.0.left" timestamp="1584666644419">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1291" height="220" key="GridCell.Tab.0.left/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562980928" />
-    <state width="1291" height="220" key="GridCell.Tab.0.right" timestamp="1584562980928">
-      <screen x="1792" y="-270" width="3008" height="1669" />
+    <state width="1750" height="317" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1584666644419" />
+    <state width="1291" height="220" key="GridCell.Tab.0.left/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584629289153" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right" timestamp="1584666644421">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1291" height="220" key="GridCell.Tab.0.right/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562980928" />
-    <state width="500" height="400" key="SwitcherDM" timestamp="1584565229312">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1584666644421" />
+    <state width="1291" height="220" key="GridCell.Tab.0.right/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584629289153" />
+    <state width="500" height="400" key="SwitcherDM" timestamp="1584666491068">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="500" height="400" key="SwitcherDM/0.0.1792.1120@0.0.1792.1120" timestamp="1584666491068" />
     <state width="500" height="400" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1584565229312" />
-    <state width="500" height="445" key="SwitcherDM/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584563838782" />
-    <state x="448" y="267" key="Vcs.Push.Dialog.v2" timestamp="1584565268378">
+    <state width="500" height="445" key="SwitcherDM/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584636290951" />
+    <state x="448" y="267" key="Vcs.Push.Dialog.v2" timestamp="1584565443975">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="448" y="267" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1584565268378" />
-    <state x="617" y="381" width="683" height="486" key="find.popup" timestamp="1584565404969">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="448" y="267" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1584565443975" />
+    <state x="617" y="366" width="683" height="497" key="find.popup" timestamp="1584665234382">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="617" y="366" width="683" height="497" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1584665234382" />
     <state x="617" y="381" width="683" height="486" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1584565404969" />
     <state x="2828" y="275" width="683" height="486" key="find.popup/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584563631910" />
     <state x="2834" y="239" key="run.anything.popup" timestamp="1584562064306">
       <screen x="1792" y="-270" width="3008" height="1669" />
     </state>
     <state x="2834" y="239" key="run.anything.popup/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584562064306" />
-    <state x="621" y="383" width="670" height="445" key="search.everywhere.popup" timestamp="1584565194102">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="621" y="367" width="670" height="454" key="search.everywhere.popup" timestamp="1584666592135">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="621" y="383" width="670" height="445" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1584565194102" />
-    <state x="2834" y="277" width="670" height="676" key="search.everywhere.popup/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584563776673" />
+    <state x="621" y="367" width="670" height="454" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1584666592135" />
+    <state x="621" y="383" width="670" height="445" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1584568695087" />
+    <state x="2834" y="277" width="670" height="676" key="search.everywhere.popup/1792.-270.3008.1669/0.23.1792.1097@1792.-270.3008.1669" timestamp="1584636874808" />
   </component>
 </project>

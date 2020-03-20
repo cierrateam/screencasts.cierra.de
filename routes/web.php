@@ -28,4 +28,5 @@ Auth::routes();
 
 Route::livewire('/lessons/{lesson}', 'lesson-show')->layout('layouts.app');
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
+Route::livewire('home', 'series-list');

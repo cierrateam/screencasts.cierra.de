@@ -9,6 +9,7 @@ $factory->define(Lesson::class, function (Faker $faker) {
     return [
         'name' => $faker->sentence(3),
         'description' => $faker->sentence(50),
-        'url' => "https://player.vimeo.com/video/398572838"
+        'url' => "https://player.vimeo.com/video/398572838",
+        'series_id' => function () { return factory(\App\Series::class)->create()->id; }
     ];
 });

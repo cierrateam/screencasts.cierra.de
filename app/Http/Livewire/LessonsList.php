@@ -9,9 +9,9 @@ class LessonsList extends Component
 {
     public $lessons;
 
-    public function __construct()
+    public function mount($series)
     {
-        $this->lessons = Lesson::all();
+        $this->lessons = Lesson::whereSeriesId($series)->get();
     }
     public function render()
     {

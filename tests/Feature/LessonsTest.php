@@ -30,7 +30,7 @@ class LessonsTest extends TestCase
 
         $lesson = factory(Lesson::class)->create();
 
-        Livewire::test(LessonsList::class)
+        Livewire::test(LessonsList::class, ['series' => $lesson->series_id])
             ->assertSee($lesson->name);
     }
 
@@ -45,15 +45,9 @@ class LessonsTest extends TestCase
 
         $assert_instance = $this->get($lesson->show_url);
 
-        foreach (Lesson::all() as $lesson) {
+        foreach (Lesson::whereSeriesId($lesson->series_id) as $lesson) {
             $assert_instance->assertSee($lesson->name);
         }
     }
 
-    public function login()
-    {
-        $user = factory(User::class)->create();
-        $this->actingAs($user);
-        return $user;
-    }
 }

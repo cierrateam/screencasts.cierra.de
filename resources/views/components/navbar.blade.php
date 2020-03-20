@@ -1,4 +1,4 @@
-<nav x-data="{ open: true }" class="bg-gray-800">
+<nav x-data="{ open: false }" class="bg-gray-800">
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -11,8 +11,8 @@
       </div>
       <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex-shrink-0">
-          <img class="block lg:hidden h-8 w-auto" src="/img/logos/workflow-mark-on-dark.svg" alt="" />
-          <img class="hidden lg:block h-8 w-auto" src="/img/logos/workflow-logo-on-dark.svg" alt="" />
+          <img class="block lg:hidden h-8 w-auto" src="/img/logo.svg" alt="" />
+          <img class="hidden lg:block h-8 w-auto" src="/img/logo.svg" alt="" />
         </div>
         <div class="hidden sm:block sm:ml-6">
           <div class="flex">

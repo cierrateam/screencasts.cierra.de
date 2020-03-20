@@ -26,13 +26,7 @@
 <div id="app">
     <x-navbar/>
     <div class="container mx-auto flex flex-wrap">
-        <div class="w-1/4">
-            <livewire:lessons-list />
-        </div>
-
-        <div class="w-3/4">
-            @yield('content')
-        </div>
+        @yield('content')
     </div>
 </div>
 

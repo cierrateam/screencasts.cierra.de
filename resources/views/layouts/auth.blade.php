@@ -24,8 +24,6 @@
 </head>
 <body>
     <div id="app">
-        <x-navbar />
-
         <main class="py-4">
             @yield('content')
         </main>
