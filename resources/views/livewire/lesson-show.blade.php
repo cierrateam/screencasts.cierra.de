@@ -1,5 +1,8 @@
 
 <div class="w-1/4">
+    <div class="rounded-md bg-gray-50 p-4 mt-9 mr-4 shadow">
+        <span class="text-2xl font-bold">Digitale Präsenz als Autohaus aufbauen</span>
+    </div>
     <livewire:lessons-list :series="$lesson->series_id" />
 </div>
 
@@ -23,6 +26,29 @@
     <div>
         <div class="embed-container">
             <iframe class="mx-auto" src="{{$lesson->url}}" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="mt-6 flex items-center">
+        <div class="flex-shrink-0">
+            <a href="#">
+                <img class="h-10 w-10 rounded-full" src="https://www.gravatar.com/avatar/e0767d767d3ce77f74ceae988d4d1b37" alt="" />
+            </a>
+        </div>
+        <div class="ml-3">
+            <p class="text-sm leading-5 font-medium text-gray-900">
+                <span class="hover:underline">
+                    Vittorio Emmermann
+                </span>
+            </p>
+            <div class="flex text-sm leading-5 text-gray-500">
+                {{$lesson->created_at->diffForHumans()}}
+                <span class="mx-1">
+                  &middot;
+                </span>
+                <span>
+                    {{__('ui.Part of')}} {{$series->name}}
+                </span>
+            </div>
         </div>
     </div>
 

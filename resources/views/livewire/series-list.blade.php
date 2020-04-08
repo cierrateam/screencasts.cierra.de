@@ -1,49 +1,65 @@
 <div class="w-full">
-    <h1 class="font-black text-3xl my-4">All Series</h1>
 
-    <div class="bg-white shadow overflow-hidden sm:rounded-md w-full">
-        <ul>
+    <div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+        <div class="relative max-w-7xl mx-auto">
+            <div class="text-center">
+                <h2 class="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+                    Alle Serien
+                </h2>
+                <p class="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-500 sm:mt-4">
+                    Wähle eine Serie aus die du anschauen willst.
+                </p>
+            </div>
+            <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
 
-
-            @foreach($series as $series_obj)
-                <li>
-                    <a href="/lessons/{{$series_obj->lessons->first()->id}}" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
-                        <div class="flex items-center px-4 py-4 sm:px-6">
-                            <div class="min-w-0 flex-1 flex items-center">
-                                <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
-                                    <div>
-                                        <div class="text-sm leading-5 font-medium text-indigo-600 truncate">{{$series_obj->name}}</div>
-                                        <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                                            <span class="truncate">{{$series_obj->lessons->count()}} lessons</span>
-                                        </div>
-                                    </div>
-                                    <div class="hidden md:block">
-                                        <div>
-                                            <div class="text-sm leading-5 text-gray-900">
-                                                Started
-                                                {{$series_obj->created_at->diffForHumans()}}
-                                            </div>
-                                            @if($series_obj->status === 'done')
-                                                <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                                                    <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                                                    </svg>
-                                                    Full series
-                                                </div>
-                                            @endif
-                                        </div>
-                                    </div>
+                @foreach($series as $series_obj)
+                <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full object-cover" src="{{$series_obj->thumbnail_image}}" alt="" />
+                    </div>
+                    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                        <div class="flex-1">
+                            <p class="text-sm leading-5 font-medium text-indigo-600">
+                                <a href="/lessons/{{$series_obj->lessons->first()->id}}" class="hover:underline">
+                                    {{$series_obj->category_string}}
+                                </a>
+                            </p>
+                            <a href="/lessons/{{$series_obj->lessons->first()->id}}" class="block">
+                                <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                                    {{$series_obj->name}}
+                                </h3>
+                                <p class="mt-3 text-base leading-6 text-gray-500">
+                                    {{$series_obj->subtitle}}
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mt-6 flex items-center">
+                            <div class="flex-shrink-0">
+                                <a href="/lessons/{{$series_obj->lessons->first()->id}}">
+                                    <img class="h-10 w-10 rounded-full" src="https://www.gravatar.com/avatar/e0767d767d3ce77f74ceae988d4d1b37" alt="" />
+                                </a>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm leading-5 font-medium text-gray-900">
+                                    <a href="/lessons/{{$series_obj->lessons->first()->id}}" class="hover:underline">
+                                        Vittorio Emmermann
+                                    </a>
+                                </p>
+                                <div class="flex text-sm leading-5 text-gray-500">
+                                    {{$series_obj->created_at->diffForHumans()}}
+                                    <span class="mx-1">
+                  &middot;
+                </span>
+                                    <span>
+                  {{$series_obj->lessons->count()}} Folgen
+                </span>
                                 </div>
                             </div>
-                            <div>
-                                <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
-                                </svg>
-                            </div>
                         </div>
-                    </a>
-                </li>
-            @endforeach
-        </ul>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
     </div>
 </div>

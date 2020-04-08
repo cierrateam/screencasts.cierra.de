@@ -6,8 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Lesson extends Model
 {
-    protected $fillable = ['name', 'description', 'url', 'series_id'];
+    protected $guarded = ['id'];
 
+    public function series()
+    {
+        return $this->belongsTo(Series::class, 'series_id');
+    }
 
     public function getShowUrlAttribute()
     {
@@ -15,8 +19,4 @@ class Lesson extends Model
     }
 
 
-    public function series()
-    {
-        return $this->belongsTo(Series::class, 'series_id');
-    }
 }

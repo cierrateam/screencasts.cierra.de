@@ -10,13 +10,15 @@
         </button>
       </div>
       <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-        <div class="flex-shrink-0">
-          <img class="block lg:hidden h-8 w-auto" src="/img/logo.svg" alt="" />
-          <img class="hidden lg:block h-8 w-auto" src="/img/logo.svg" alt="" />
-        </div>
+          <a href="/home">
+              <div class="flex-shrink-0">
+                  <img class="block lg:hidden h-8 w-auto logo" src="/img/logo.svg" alt="" />
+                  <img class="hidden lg:block h-8 w-auto logo" src="/img/logo.svg" alt="" />
+              </div>
+          </a>
         <div class="hidden sm:block sm:ml-6">
           <div class="flex">
-            <a href="/home" class="px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Dashboard</a>
+            <a href="/home" class="px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Serien</a>
           </div>
         </div>
       </div>
