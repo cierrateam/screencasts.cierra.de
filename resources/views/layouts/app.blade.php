@@ -23,11 +23,14 @@
     @livewireStyles
 </head>
 <body>
-<div id="app">
-    <x-navbar/>
-    <div class="container mx-auto flex flex-wrap">
-        @yield('content')
+<div id="app" class="min-h-screen flex flex-col justify-between">
+    <div>
+        <x-navbar/>
+        <div class="container mx-auto flex flex-wrap">
+            @yield('content')
+        </div>
     </div>
+    <x-footer/>
 </div>
 
 
