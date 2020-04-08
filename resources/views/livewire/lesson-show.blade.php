@@ -1,7 +1,7 @@
 
 <div class="w-1/4">
     <div class="rounded-md bg-gray-50 p-4 mt-9 mr-4 shadow">
-        <span class="text-2xl font-bold">Digitale Präsenz als Autohaus aufbauen</span>
+        <span class="text-2xl font-bold">{{$series->name}}</span>
     </div>
     <livewire:lessons-list :series="$lesson->series_id" />
 </div>
